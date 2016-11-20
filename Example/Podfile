@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ParallaxUtils_Example' do
+  pod 'ParallaxUtils', :path => '../'
+
+  target 'ParallaxUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
