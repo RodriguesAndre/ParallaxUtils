@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ParallaxUtils'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ParallaxUtils.'
+  s.summary          = 'This is a category to easily add parralax effect to UIViews and UIImagesView'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This category helps you to easily add UIMotion to any view. If you want to use it in a UIImageView this will replace your UIImageView with an UIImagView with parallax effects.
                        DESC
 
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ParallaxUtils'

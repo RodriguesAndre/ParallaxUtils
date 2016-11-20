@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191974C067154FB8FABB37579CBA11AA /* Pods-ParallaxUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7B8EF3FA6EEA8B210D1A49145459E3 /* Pods-ParallaxUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35BB0051878A400D812FD740F06FB170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9D61C10E8144A616BF2AF4DE746DD6A5 /* ParallaxUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EFF7002C4A259061EB201714177217D /* ParallaxUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2834487F209554687F4AEFD330EB00F /* Pods-ParallaxUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CF1382F821AE848F83305C6BEE9C3E /* Pods-ParallaxUtils_Tests-dummy.m */; };
+		B093E8A34154EEEF7F6FDEF29B14FFE8 /* UIView+Parallax.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5C7315C86EA0E78A6F85582F06EB5 /* UIView+Parallax.m */; };
+		B6F69932E2997405929DDECAF4BDE936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D4B792D94707613185A8353532BA0E47 /* Pods-ParallaxUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA469C635854609DE9C320F6F4AD0D /* Pods-ParallaxUtils_Example-dummy.m */; };
+		EB1C45B890DEDCAC552049663A34E0A1 /* ParallaxUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A5C57C4E7A0A99BBE78C2EF7C34315 /* ParallaxUtils-dummy.m */; };
+		EBC66D830D398C9044AB4A632E158D65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F97DFCE25BFB961D9623917B823CDB6E /* UIView+Parallax.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A0401DFA7CC2F68EDD33D15F3BB3B3 /* UIView+Parallax.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB08E95BC6335D13160D086FB28CA18B /* Pods-ParallaxUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6384E857A6155FB796711A60EDD10DAA /* Pods-ParallaxUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56A08F0C69CED3EB4DC1B9FDB09F85DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DBBAD62234DCA389D1E5DFD49E5A813;
+			remoteInfo = ParallaxUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		165477ACD350183699350FE3A35884E1 /* ParallaxUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ParallaxUtils.framework; path = ParallaxUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCE417D26F6D8001806E17EEBB12016 /* Pods-ParallaxUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParallaxUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2767ED4944593FFB88A5B765C1BF6B25 /* Pods-ParallaxUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParallaxUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32FA469C635854609DE9C320F6F4AD0D /* Pods-ParallaxUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParallaxUtils_Example-dummy.m"; sourceTree = "<group>"; };
+		34B6C3BF7624BDB686669E0F8F7B8EFA /* ParallaxUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ParallaxUtils.modulemap; sourceTree = "<group>"; };
+		3E01C621B68429E97CD0F889C8CBD1BD /* Pods-ParallaxUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParallaxUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		48AA55732E8F9354ACFD19903E75A236 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF4350FF6EE4FC31EB9C7E2EF7D0CCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFF7002C4A259061EB201714177217D /* ParallaxUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxUtils-umbrella.h"; sourceTree = "<group>"; };
+		53A5C57C4E7A0A99BBE78C2EF7C34315 /* ParallaxUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParallaxUtils-dummy.m"; sourceTree = "<group>"; };
+		55E5C7315C86EA0E78A6F85582F06EB5 /* UIView+Parallax.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Parallax.m"; sourceTree = "<group>"; };
+		5B241B2C8A951086C98F7AFE738B6075 /* Pods_ParallaxUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ParallaxUtils_Tests.framework; path = "Pods-ParallaxUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6384E857A6155FB796711A60EDD10DAA /* Pods-ParallaxUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParallaxUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		74B013DB8EDF9F0948EB9B3A82B154B6 /* Pods-ParallaxUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParallaxUtils_Example-resources.sh"; sourceTree = "<group>"; };
+		8B524B9E47AFA510DEAFB2A4285CBE18 /* Pods_ParallaxUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ParallaxUtils_Example.framework; path = "Pods-ParallaxUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F205FD95C4D9E7F07DE64C7B4FC98DC /* Pods-ParallaxUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParallaxUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C3ADFC82AAFAB91299CEB58FA70041E /* Pods-ParallaxUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParallaxUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2043AD03B158ED8A5E3A3DD15366399 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7CF1382F821AE848F83305C6BEE9C3E /* Pods-ParallaxUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParallaxUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		BBD7A3F36EA45BE57AE7E1A75B916722 /* ParallaxUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParallaxUtils.xcconfig; sourceTree = "<group>"; };
+		C3655A81D992CD6C2DBD3E1D7906E6C9 /* Pods-ParallaxUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParallaxUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF8EB4D89F92CF93DC75ECB4E523BD7D /* Pods-ParallaxUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ParallaxUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		D51C5208B9F9257DE575E9674B38171E /* Pods-ParallaxUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParallaxUtils_Tests-resources.sh"; sourceTree = "<group>"; };
+		D6A0401DFA7CC2F68EDD33D15F3BB3B3 /* UIView+Parallax.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Parallax.h"; sourceTree = "<group>"; };
+		D7B6ECF9DD6C49B2E930124B1693699C /* Pods-ParallaxUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParallaxUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DA4ECF3C7A0BD04D7E41B7083C181C85 /* ParallaxUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxUtils-prefix.pch"; sourceTree = "<group>"; };
+		DB6EC7E925AC5C8F289C1255D1DCEFE3 /* Pods-ParallaxUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParallaxUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE01EE8D0B7595D2EE93E4715DC51B40 /* Pods-ParallaxUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ParallaxUtils_Example.modulemap"; sourceTree = "<group>"; };
+		E028B4E5EAB5A708A36A63C33C95432B /* Pods-ParallaxUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParallaxUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EE7B8EF3FA6EEA8B210D1A49145459E3 /* Pods-ParallaxUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParallaxUtils_Example-umbrella.h"; sourceTree = "<group>"; };
+		F0670F33850D68D2302FE4510D9F5AC0 /* Pods-ParallaxUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParallaxUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92CCCC8D09514E7173A52CBDD3CDE583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC66D830D398C9044AB4A632E158D65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41E5714C34DD8BFB933EE14257C5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F69932E2997405929DDECAF4BDE936 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E7A80DE6E5C7E0F1BBC251C232B79E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BB0051878A400D812FD740F06FB170 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1794FD20EC21ED0522834EFFC34F3FB7 /* Pods-ParallaxUtils_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A2043AD03B158ED8A5E3A3DD15366399 /* Info.plist */,
+				CF8EB4D89F92CF93DC75ECB4E523BD7D /* Pods-ParallaxUtils_Tests.modulemap */,
+				F0670F33850D68D2302FE4510D9F5AC0 /* Pods-ParallaxUtils_Tests-acknowledgements.markdown */,
+				DB6EC7E925AC5C8F289C1255D1DCEFE3 /* Pods-ParallaxUtils_Tests-acknowledgements.plist */,
+				B7CF1382F821AE848F83305C6BEE9C3E /* Pods-ParallaxUtils_Tests-dummy.m */,
+				3E01C621B68429E97CD0F889C8CBD1BD /* Pods-ParallaxUtils_Tests-frameworks.sh */,
+				D51C5208B9F9257DE575E9674B38171E /* Pods-ParallaxUtils_Tests-resources.sh */,
+				6384E857A6155FB796711A60EDD10DAA /* Pods-ParallaxUtils_Tests-umbrella.h */,
+				9C3ADFC82AAFAB91299CEB58FA70041E /* Pods-ParallaxUtils_Tests.debug.xcconfig */,
+				C3655A81D992CD6C2DBD3E1D7906E6C9 /* Pods-ParallaxUtils_Tests.release.xcconfig */,
+			);
+			name = "Pods-ParallaxUtils_Tests";
+			path = "Target Support Files/Pods-ParallaxUtils_Tests";
+			sourceTree = "<group>";
+		};
+		3510FEEF6C461F2A808CB6CAEDD09E2C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D6A0401DFA7CC2F68EDD33D15F3BB3B3 /* UIView+Parallax.h */,
+				55E5C7315C86EA0E78A6F85582F06EB5 /* UIView+Parallax.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		395EF4C87F3C6E8F46F65CBDD8F87D14 /* ParallaxUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3510FEEF6C461F2A808CB6CAEDD09E2C /* Classes */,
+			);
+			name = ParallaxUtils;
+			path = ParallaxUtils;
+			sourceTree = "<group>";
+		};
+		40DEF2052A975A967FD55591BE24A724 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48AA55732E8F9354ACFD19903E75A236 /* Info.plist */,
+				34B6C3BF7624BDB686669E0F8F7B8EFA /* ParallaxUtils.modulemap */,
+				BBD7A3F36EA45BE57AE7E1A75B916722 /* ParallaxUtils.xcconfig */,
+				53A5C57C4E7A0A99BBE78C2EF7C34315 /* ParallaxUtils-dummy.m */,
+				DA4ECF3C7A0BD04D7E41B7083C181C85 /* ParallaxUtils-prefix.pch */,
+				4EFF7002C4A259061EB201714177217D /* ParallaxUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ParallaxUtils";
+			sourceTree = "<group>";
+		};
+		576A574500D6361B06F40EF8F933351E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D1E56A13BDF9E437B55A0BDA69EDB14 /* Pods-ParallaxUtils_Example */,
+				1794FD20EC21ED0522834EFFC34F3FB7 /* Pods-ParallaxUtils_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66CDF569985CCA0362C7A03C377CB3CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				165477ACD350183699350FE3A35884E1 /* ParallaxUtils.framework */,
+				8B524B9E47AFA510DEAFB2A4285CBE18 /* Pods_ParallaxUtils_Example.framework */,
+				5B241B2C8A951086C98F7AFE738B6075 /* Pods_ParallaxUtils_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B897C03DB75DD243C1DCD7DDEA3E0DC8 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				66CDF569985CCA0362C7A03C377CB3CF /* Products */,
+				576A574500D6361B06F40EF8F933351E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D1E56A13BDF9E437B55A0BDA69EDB14 /* Pods-ParallaxUtils_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4350FF6EE4FC31EB9C7E2EF7D0CCC /* Info.plist */,
+				DE01EE8D0B7595D2EE93E4715DC51B40 /* Pods-ParallaxUtils_Example.modulemap */,
+				2767ED4944593FFB88A5B765C1BF6B25 /* Pods-ParallaxUtils_Example-acknowledgements.markdown */,
+				1FCE417D26F6D8001806E17EEBB12016 /* Pods-ParallaxUtils_Example-acknowledgements.plist */,
+				32FA469C635854609DE9C320F6F4AD0D /* Pods-ParallaxUtils_Example-dummy.m */,
+				E028B4E5EAB5A708A36A63C33C95432B /* Pods-ParallaxUtils_Example-frameworks.sh */,
+				74B013DB8EDF9F0948EB9B3A82B154B6 /* Pods-ParallaxUtils_Example-resources.sh */,
+				EE7B8EF3FA6EEA8B210D1A49145459E3 /* Pods-ParallaxUtils_Example-umbrella.h */,
+				D7B6ECF9DD6C49B2E930124B1693699C /* Pods-ParallaxUtils_Example.debug.xcconfig */,
+				8F205FD95C4D9E7F07DE64C7B4FC98DC /* Pods-ParallaxUtils_Example.release.xcconfig */,
+			);
+			name = "Pods-ParallaxUtils_Example";
+			path = "Target Support Files/Pods-ParallaxUtils_Example";
+			sourceTree = "<group>";
+		};
+		B897C03DB75DD243C1DCD7DDEA3E0DC8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE8FFBF671248BF293D31C023D109A1A /* ParallaxUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE8FFBF671248BF293D31C023D109A1A /* ParallaxUtils */ = {
+			isa = PBXGroup;
+			children = (
+				395EF4C87F3C6E8F46F65CBDD8F87D14 /* ParallaxUtils */,
+				40DEF2052A975A967FD55591BE24A724 /* Support Files */,
+			);
+			name = ParallaxUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B1C210663E39AFB9B1A078DC21EC236 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB08E95BC6335D13160D086FB28CA18B /* Pods-ParallaxUtils_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAAABD9347532374AFA5B567AD009DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191974C067154FB8FABB37579CBA11AA /* Pods-ParallaxUtils_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02F82A3C054A1C54DB7506FA9AAAC39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D61C10E8144A616BF2AF4DE746DD6A5 /* ParallaxUtils-umbrella.h in Headers */,
+				F97DFCE25BFB961D9623917B823CDB6E /* UIView+Parallax.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A718D9C0D1D4852AA6546D794B67140 /* Pods-ParallaxUtils_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0FBCBDE04B470FF736C22F1DA36075 /* Build configuration list for PBXNativeTarget "Pods-ParallaxUtils_Tests" */;
+			buildPhases = (
+				AA858445687D4722C39B216C4029A261 /* Sources */,
+				AC41E5714C34DD8BFB933EE14257C5B0 /* Frameworks */,
+				5B1C210663E39AFB9B1A078DC21EC236 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ParallaxUtils_Tests";
+			productName = "Pods-ParallaxUtils_Tests";
+			productReference = 5B241B2C8A951086C98F7AFE738B6075 /* Pods_ParallaxUtils_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DBBAD62234DCA389D1E5DFD49E5A813 /* ParallaxUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9754159D6D22CA95BB56FDC12867E5 /* Build configuration list for PBXNativeTarget "ParallaxUtils" */;
+			buildPhases = (
+				C176EBA014797B13B9E5BD66692DCFE5 /* Sources */,
+				D6E7A80DE6E5C7E0F1BBC251C232B79E /* Frameworks */,
+				E02F82A3C054A1C54DB7506FA9AAAC39 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaxUtils;
+			productName = ParallaxUtils;
+			productReference = 165477ACD350183699350FE3A35884E1 /* ParallaxUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8583FC6AC0E0365A238D4D21C76DCE8 /* Pods-ParallaxUtils_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56EF5F63FFBECC2D9C0D3E17F1C0A59 /* Build configuration list for PBXNativeTarget "Pods-ParallaxUtils_Example" */;
+			buildPhases = (
+				473F3329037AB86C4D12CC9B6AA627FD /* Sources */,
+				92CCCC8D09514E7173A52CBDD3CDE583 /* Frameworks */,
+				8FAAABD9347532374AFA5B567AD009DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2359118939F8BAB79396B972071FF0A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ParallaxUtils_Example";
+			productName = "Pods-ParallaxUtils_Example";
+			productReference = 8B524B9E47AFA510DEAFB2A4285CBE18 /* Pods_ParallaxUtils_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 66CDF569985CCA0362C7A03C377CB3CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DBBAD62234DCA389D1E5DFD49E5A813 /* ParallaxUtils */,
+				D8583FC6AC0E0365A238D4D21C76DCE8 /* Pods-ParallaxUtils_Example */,
+				1A718D9C0D1D4852AA6546D794B67140 /* Pods-ParallaxUtils_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473F3329037AB86C4D12CC9B6AA627FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B792D94707613185A8353532BA0E47 /* Pods-ParallaxUtils_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA858445687D4722C39B216C4029A261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2834487F209554687F4AEFD330EB00F /* Pods-ParallaxUtils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C176EBA014797B13B9E5BD66692DCFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1C45B890DEDCAC552049663A34E0A1 /* ParallaxUtils-dummy.m in Sources */,
+				B093E8A34154EEEF7F6FDEF29B14FFE8 /* UIView+Parallax.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2359118939F8BAB79396B972071FF0A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParallaxUtils;
+			target = 7DBBAD62234DCA389D1E5DFD49E5A813 /* ParallaxUtils */;
+			targetProxy = 56A08F0C69CED3EB4DC1B9FDB09F85DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B67126686AA60305D7519B2CE0C87BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3655A81D992CD6C2DBD3E1D7906E6C9 /* Pods-ParallaxUtils_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ParallaxUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParallaxUtils_Tests/Pods-ParallaxUtils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ParallaxUtils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29864EF29D1CA37C8F65780115367F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B6ECF9DD6C49B2E930124B1693699C /* Pods-ParallaxUtils_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ParallaxUtils_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParallaxUtils_Example/Pods-ParallaxUtils_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ParallaxUtils_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4689F0125AD21E736E9633313304389A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F205FD95C4D9E7F07DE64C7B4FC98DC /* Pods-ParallaxUtils_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ParallaxUtils_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParallaxUtils_Example/Pods-ParallaxUtils_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ParallaxUtils_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B2A19492FBE35206A8CEB5299CBC754B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD7A3F36EA45BE57AE7E1A75B916722 /* ParallaxUtils.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxUtils/ParallaxUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParallaxUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParallaxUtils/ParallaxUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ParallaxUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0191A6CB8557FC75CD065E08CBDA10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD7A3F36EA45BE57AE7E1A75B916722 /* ParallaxUtils.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxUtils/ParallaxUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParallaxUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParallaxUtils/ParallaxUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ParallaxUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F280F6D18F64F80C0533218DCE1764C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3ADFC82AAFAB91299CEB58FA70041E /* Pods-ParallaxUtils_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ParallaxUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParallaxUtils_Tests/Pods-ParallaxUtils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ParallaxUtils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9754159D6D22CA95BB56FDC12867E5 /* Build configuration list for PBXNativeTarget "ParallaxUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A19492FBE35206A8CEB5299CBC754B /* Debug */,
+				F0191A6CB8557FC75CD065E08CBDA10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0FBCBDE04B470FF736C22F1DA36075 /* Build configuration list for PBXNativeTarget "Pods-ParallaxUtils_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F280F6D18F64F80C0533218DCE1764C1 /* Debug */,
+				1B67126686AA60305D7519B2CE0C87BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56EF5F63FFBECC2D9C0D3E17F1C0A59 /* Build configuration list for PBXNativeTarget "Pods-ParallaxUtils_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29864EF29D1CA37C8F65780115367F7E /* Debug */,
+				4689F0125AD21E736E9633313304389A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

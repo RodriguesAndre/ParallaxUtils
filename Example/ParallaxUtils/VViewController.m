@@ -7,10 +7,8 @@
 //
 
 #import "VViewController.h"
+#import "UIView+Parallax.h"
 
-@interface VViewController ()
-
-@end
 
 @implementation VViewController
 
@@ -18,6 +16,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    UIImageView *imageView = [self.view viewWithTag:100];
+    UILabel *label = [self.view viewWithTag:110];
+    
+    [label addParallaxWithStrength:30];
+    [self.view addParallaxToUIImageView:imageView withStrength:40];
+    
 }
 
 - (void)didReceiveMemoryWarning
