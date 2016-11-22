@@ -1,0 +1,16 @@
+PODS:
+  - ParallaxUtils (0.1.0)
+
+DEPENDENCIES:
+  - ParallaxUtils (from `../`)
+
+EXTERNAL SOURCES:
+  ParallaxUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ParallaxUtils: a74331a7048db7fd6a6f5c58f1ef99345dc942a6
+
+PODFILE CHECKSUM: 15245eff08c080a8ddab7ee3f5318ffc4234146f
+
+COCOAPODS: 1.1.1

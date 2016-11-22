@@ -11,6 +11,11 @@
 @interface UIView (Parallax)
 
 - (void)addParallaxWithStrength:(NSInteger)strength;
-- (void)addParallaxToUIImageView:(UIImageView *)imageView withStrength:(NSInteger)strength;
-    
+
+@end
+
+@interface UIImageView (Parallax)
+
+- (void)addFixedParallaxToUIImageViewWithStrength:(NSInteger)strength;
+
 @end

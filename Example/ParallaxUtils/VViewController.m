@@ -18,11 +18,25 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     
+
+    
+}
+
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self.view layoutIfNeeded];
     UIImageView *imageView = [self.view viewWithTag:100];
     UILabel *label = [self.view viewWithTag:110];
     
     [label addParallaxWithStrength:30];
-    [self.view addParallaxToUIImageView:imageView withStrength:40];
+    [imageView addFixedParallaxToUIImageViewWithStrength:40];
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     
 }
 

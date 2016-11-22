@@ -31,26 +31,26 @@
     [self addMotionEffect:group];
 }
 
+@end
 
-- (void)addParallaxToUIImageView:(UIImageView *)imageView withStrength:(NSInteger)strength {
+@implementation UIImageView (Parallax)
+
+- (void)addFixedParallaxToUIImageViewWithStrength:(NSInteger)strength {
     
-    UIView *imageContainer = [[UIView alloc] initWithFrame:imageView.frame];
-    [imageContainer setClipsToBounds:YES];
-    
-    CGRect newFrame = imageView.bounds;
+    CGRect newFrame = self.frame;
     newFrame.origin.x = -strength;
     newFrame.origin.y = -strength;
     newFrame.size.width = newFrame.size.width + (strength * 2);
     newFrame.size.height = newFrame.size.height + (strength * 2);
         
+    UIImageView *newImageView = [[UIImageView alloc] initWithFrame:newFrame];
+    newImageView.image = self.image;
+    self.image = nil;
+    [self setClipsToBounds:YES];
+        
+    [self addSubview:newImageView];
+    [newImageView addParallaxWithStrength:strength];
     
-    [self insertSubview:imageContainer atIndex:imageView.layer.zPosition];
-    [imageView removeFromSuperview];
-    
-    [imageContainer addSubview:imageView];
-    [imageView setFrame:newFrame];
-    
-    [imageView addParallaxWithStrength:strength];
 }
 
 @end
