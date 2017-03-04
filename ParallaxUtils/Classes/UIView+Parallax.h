@@ -10,12 +10,11 @@
 
 @interface UIView (Parallax)
 
+extern NSInteger const DEFAULT_PARALLAX_STRENGHT; // declaration
+
+- (void)addParallax;
 - (void)addParallaxWithStrength:(NSInteger)strength;
-
-@end
-
-@interface UIImageView (Parallax)
-
-- (void)addFixedParallaxToUIImageViewWithStrength:(NSInteger)strength;
+- (void)addParallaxClippedToBounds;
+- (void)addParallaxClippedToBoundsWithStrength:(NSInteger)strength;
 
 @end

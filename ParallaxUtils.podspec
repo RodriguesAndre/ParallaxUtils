@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 This category helps you to easily add UIMotion to any view. If you want to use it in a UIImageView this will replace your UIImageView with an UIImagView with parallax effects.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ParallaxUtils'
+  s.homepage         = 'https://github.com/RodriguesAndre/ParallaxPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andre Rodrigues' => 'rodrigues.andre.carlos@gmail.com' }

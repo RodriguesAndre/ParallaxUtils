@@ -9,41 +9,22 @@
 #import "VViewController.h"
 #import "UIView+Parallax.h"
 
+@interface VViewController ()
+
+@property (nonatomic, weak) IBOutlet UILabel *parallaxLabel;
+@property (nonatomic, weak) IBOutlet UIImageView *parallaxImageView;
+
+@end
+
 
 @implementation VViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     
-    
-
-    
+    [_parallaxLabel addParallax];
+    [_parallaxImageView addParallaxClippedToBoundsWithStrength:40];
 }
 
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    
-    [self.view layoutIfNeeded];
-    UIImageView *imageView = [self.view viewWithTag:100];
-    UILabel *label = [self.view viewWithTag:110];
-    
-    [label addParallaxWithStrength:30];
-    [imageView addFixedParallaxToUIImageViewWithStrength:40];
-    
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
